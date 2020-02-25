@@ -174,7 +174,7 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-light">
+  <footer class="footer py-2 bg-light">
     <div class="container">
       <p class="m-0 text-center">Copyright &copy; Your Website 2020</p>
     </div>
