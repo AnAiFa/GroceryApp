@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse text-center" id="navbarColor01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php"><img src="assets/img/grocery.jpg" alt="" height="47px" width="250px"></a>
+          <a class="nav-link" href="index"><img src="assets/img/grocery.jpg" alt="" height="47px" width="250px"></a>
         </li>
       </ul>
       <form">
