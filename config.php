@@ -2,8 +2,8 @@
 
     class Database {
         private $dsn = "mysql:host=localhost;dbname=id12818630_grotech";
-        private $dbuser = "id12818630_root";
-        private $dbpass = "grotech2020";
+        private $dbuser = "root";
+        private $dbpass = "";
         
         public $conn;
         

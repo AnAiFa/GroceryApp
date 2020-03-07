@@ -19,7 +19,7 @@
     <div class="row">
 
       <div class="col-lg-3">
-        <div class="form-label-group my-4">
+        <div class="form-label-group mt-4">
           <input type="text" id="inputSearch" class="form-control" placeholder="Search Product">
           <label for="inputSearch">Search Product</label>
         </div>
@@ -29,7 +29,6 @@
           <a href="#" class="list-group-item">Category 2</a>
           <a href="#" class="list-group-item">Category 3</a>
         </div>
-
       </div>
       <!-- /.col-lg-3 -->
 
