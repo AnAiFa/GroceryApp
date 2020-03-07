@@ -7,8 +7,8 @@
 
 	<div class="collapse navbar-collapse" id="navbarColor01">
 		<div class="ml-auto my-3">
-			<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#signUp">Sign Up</button>
-      <button type="button" class="btn btn-outline-secondary mr-2">Login</button>
+			<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="modal" data-target="#loginModal">Login</button>
     </div>
     <div class="form-inline form-label-group my-3">
       <input type="text" id="inputSearch" class="form-control" placeholder="Search Here">
@@ -43,13 +43,13 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="1.jpg" alt="First slide">
+              <img class="d-block img-fluid" src="assets/img/1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="2.jpg" alt="Second slide">
+              <img class="d-block img-fluid" src="assets/img/2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="3.jpg" alt="Third slide">
+              <img class="d-block img-fluid" src="assets/img/3.jpg" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -179,7 +179,7 @@
     </div>
   </footer>
 
-  <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -189,15 +189,32 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="form-label-group">
-            <input type="text" id="inputFullName" class="form-control" placeholder="Full Name" required="">
-            <label for="inputFullName">Full Name</label>
-          </div>
-          <div class="form-label-group">
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
-            <label for="inputEmail">Email address</label>
-          </div>
-          
+          <form>
+              <div class="form-label-group">
+                <input type="text" id="inputFullName" class="form-control" placeholder="Full Name" required="">
+                <label for="inputFullName">Full Name</label>
+              </div>
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
+                <label for="inputEmail">Email address</label>
+              </div>
+              <div class="form-label-group">
+                <input type="number" id="inputContact" class="form-control" placeholder="Contact No." required="">
+                <label for="inputContact">Contact No.</label>
+              </div>
+              <div class="form-label-group">
+                <input type="text" id="inputAddress" class="form-control" placeholder="Permanent Address" required="">
+                <label for="inputAddress">Permanent Address</label>
+              </div>
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                <label for="inputPassword">Password</label>
+              </div>
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required="">
+                <label for="inputConfirmPassword">Confirm Password</label>
+              </div>
+            </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
@@ -206,3 +223,41 @@
       </div>
     </div>
   </div>
+  
+  
+  
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+              <div class="form-label-group">
+                <input type="email" id="loginEmail" class="form-control" placeholder="Email address" required="">
+                <label for="loginEmail">Email address</label>
+              </div>
+              <div class="form-label-group">
+                <input type="password" id="loginPassword" class="form-control" placeholder="Password" required="">
+                <label for="loginPassword">Password</label>
+              </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+ 
+  
