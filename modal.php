@@ -7,36 +7,37 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<form action="">
+			<form method="post" id="formSignUp">
 			<div class="modal-body">
 				<div class="form-label-group">
-					<input type="text" id="inputFullName" class="form-control" placeholder="Full Name" required="">
+					<input type="text" id="inputFullName" name="fullname" class="form-control" placeholder="Full Name" required="">
 					<label for="inputFullName">Full Name</label>
 				</div>
 				<div class="form-label-group">
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
+					<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required="">
 					<label for="inputEmail">Email address</label>
 				</div>
 				<div class="form-label-group">
-					<input type="number" id="inputContact" class="form-control" placeholder="Contact No." required="">
+					<input type="number" id="inputContact" name="contact" class="form-control" placeholder="Contact No." required="">
 					<label for="inputContact">Contact No.</label>
 				</div>
 				<div class="form-label-group">
-					<input type="text" id="inputAddress" class="form-control" placeholder="Permanent Address" required="">
+					<input type="text" id="inputAddress" name="address" class="form-control" placeholder="Permanent Address" required="">
 					<label for="inputAddress">Permanent Address</label>
 				</div>
 				<div class="form-label-group">
-					<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+					<input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="">
 					<label for="inputPassword">Password</label>
 				</div>
 				<div class="form-label-group">
-					<input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required="">
+					<input type="password" id="inputConfirmPassword" name="confirmPassword" class="form-control" aria-describedby="validityPassword" placeholder="Confirm Password" required="">
 					<label for="inputConfirmPassword">Confirm Password</label>
+					<small id="validityPassword" class="form-text text-danger">&nbsp;&nbsp;&nbsp;&nbsp;</small>
 				</div>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-				<button type="submit" class="btn btn-outline-primary">Sign Up</button>
+				<button type="submit" id="btnSignUp" class="btn btn-outline-primary">Sign Up</button>
 			</div>
 			</form>
 		</div>

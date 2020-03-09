@@ -10,14 +10,12 @@
         public function __construct(){
             try {
                 $this->conn = new PDO($this->dsn,$this->dbuser,$this->dbpass);
-                echo "Connected successfully to database";
-            }catch (PDOException $e) {
+            }
+            catch (PDOException $e) {
                 echo "Error : ".$e->getMessage();
             }
             
             return $this->conn;
         }
     }
-    
-    $ob = new Database;
     

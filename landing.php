@@ -5,7 +5,7 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
-	<div class="collapse navbar-collapse" id="navbarColor01">
+	<div class="collapse navbar-collapse text-right" id="navbarColor01">
 		<div class="ml-auto my-3">
 			<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
       <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#loginModal">Login</button>
@@ -15,7 +15,7 @@
 
   <!-- Page Content -->
   <div class="container">
-
+    <p id="loading">Loading.......</p>
     <div class="row">
 
       <div class="col-lg-3">
